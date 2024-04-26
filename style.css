@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav-1{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100px;
+    gap: 20px;
+}
+#nav-1 h4{
+    font-size: 1.3vw;
+    font-weight: bold;
+    padding-left: 30px;
+    cursor: pointer;
+}
+#courses{
+    min-height: calc(100% - 100px);
+    width: 100%;
+    background-color: black;
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.element{
+    height: 310px;
+    width: 380px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.element h1{
+    font-size: 2.1vw;
+    flex-direction: column;
+    color: green;
+    padding-left: 8px;
+}
+.element h6{
+   padding: 10px 120px;
+   font-size: 1vw;
+}
+.element h3{
+   padding: 30px 100px;
+   font-size: 2vw;
+   color: rgb(241, 32, 32);
+}
+.element h4{
+    padding: 10px 125px;
+    font-size: 1.4vw;
+}
+.element p{
+    font-size: 1.5vw;
+    padding: 15px 90px;
+}
